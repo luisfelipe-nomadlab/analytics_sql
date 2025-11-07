@@ -3,7 +3,7 @@
 [![SQL Server](https://img.shields.io/badge/SQL--Server-Analysis-red.svg)](https://www.microsoft.com/sql-server)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Análise Exploratória de Dados (EDA) em SQL aplicada ao dataset **`credito_ds`**, com foco na compreensão estatística e comportamental dos clientes antes das etapas de modelagem em **Star Schema**.  
+Análise Exploratória de Dados (EDA) em SQL aplicada ao dataset **`credito_ds`**, com foco na compreensão estatística e comportamental dos clientes.  
 Os scripts foram desenvolvidos para execução direta em **Microsoft SQL Server**, podendo ser adaptados para outras engines SQL compatíveis.
 
 ---
@@ -14,8 +14,6 @@ Identificar padrões e comportamentos relevantes nos dados de crédito, incluind
 - Distribuição de variáveis categóricas;
 - Estatísticas descritivas por sexo e faixa salarial;
 - Correlações básicas entre perfil do cliente e comportamento de transações.
-
-Essa etapa de **EDA SQL** é parte integrante do pipeline **ETL + Data Modeling**, servindo como diagnóstico inicial para ajustes na modelagem e enriquecimento de features.
 
 ---
 ## Consultas Principais
